@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./input/input.css -o ./css/style.css --watch"
+    "windi": "windicss './**/*.html' -to './css/style.css' -d"
   },
   "repository": {
     "type": "git",
